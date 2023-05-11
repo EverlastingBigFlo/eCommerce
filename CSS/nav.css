@@ -14,3 +14,6 @@ header .navbar .navCon .collapse .navbar-nav .dropCar .dropHover {
 header .navbar .navCon .collapse .navbar-nav .dropCar:hover .dropHover {
   display: block;
 }
+header .navbar .secondNav .btn-group {
+  display: none;
+}
