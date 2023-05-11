@@ -1,0 +1,6 @@
+header .navbar {
+  background-color: #fffdee !important;
+}
+header .navbar .navCon .navbar-brand img {
+  width: 4rem;
+}
