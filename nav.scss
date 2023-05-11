@@ -10,15 +10,24 @@ header{
             }
             .collapse{
                 .navbar-nav{
-                    .nav-link{
-                        .dropCar{
-                            .dropHover{
-                                display: none !important;
-                            }
+                    .dropCar {
+                        position: relative;
+                        .dropHover {
+                            position: absolute;
+                          display: none;
                         }
-                    }
+                        
+                        &:hover {
+                          .dropHover {
+                            display: block;
+                          }
+                        }
+                      }
+                      
                 }
             }
         }
     }
 }
+
+  

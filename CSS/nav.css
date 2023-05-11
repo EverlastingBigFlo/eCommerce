@@ -4,6 +4,13 @@ header .navbar {
 header .navbar .navCon .navbar-brand img {
   width: 4rem;
 }
-header .navbar .navCon .collapse .navbar-nav .nav-link .dropCar .dropHover {
-  display: none !important;
+header .navbar .navCon .collapse .navbar-nav .dropCar {
+  position: relative;
+}
+header .navbar .navCon .collapse .navbar-nav .dropCar .dropHover {
+  position: absolute;
+  display: none;
+}
+header .navbar .navCon .collapse .navbar-nav .dropCar:hover .dropHover {
+  display: block;
 }
