@@ -8,7 +8,17 @@ header{
                     width: 4rem;
                 }
             }
-
+            .collapse{
+                .navbar-nav{
+                    .nav-link{
+                        .dropCar{
+                            .dropHover{
+                                display: none !important;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
