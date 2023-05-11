@@ -30,7 +30,16 @@ header{
 
         .secondNav{
             .btn-group{
-                display: none;
+                position: relative;
+                .dropDown{
+                    display: none;
+                    position: absolute;
+              }
+              &:hover {
+                .dropDown {
+                  display: block;
+                }
+              }
             }
         }
     }

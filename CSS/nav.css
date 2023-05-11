@@ -15,5 +15,12 @@ header .navbar .navCon .collapse .navbar-nav .dropCar:hover .dropHover {
   display: block;
 }
 header .navbar .secondNav .btn-group {
+  position: relative;
+}
+header .navbar .secondNav .btn-group .dropDown {
   display: none;
+  position: absolute;
+}
+header .navbar .secondNav .btn-group:hover .dropDown {
+  display: block;
 }
