@@ -15,6 +15,9 @@ header .navbar {
 header .navbar .navCon .navbar-brand img {
   width: 4rem;
 }
+header .navbar .navCon .collapse .navbar-nav .btn-danger {
+  background-color: #d36420 !important;
+}
 header .navbar .navCon .collapse .navbar-nav .dropCar {
   position: relative;
 }
@@ -25,20 +28,22 @@ header .navbar .navCon .collapse .navbar-nav .dropCar .dropHover {
 header .navbar .navCon .collapse .navbar-nav .dropCar:hover .dropHover {
   display: block;
 }
-header .navbar .secondNav .btn-group {
+header .navbar .secondNav .secondnavWrapper .btn-group {
   position: relative;
 }
-header .navbar .secondNav .dropDown {
-  width: 25rem !important;
+header .navbar .secondNav .secondnavWrapper .jewel {
+  color: #d36420 !important;
+  text-decoration: none;
+  transition: 1s ease;
+}
+header .navbar .secondNav .secondnavWrapper .dropDown {
+  width: 25rem;
   display: none;
   position: absolute;
 }
-header .navbar .secondNav .dropDown #listing {
+header .navbar .secondNav .secondnavWrapper .dropDown #listing {
   text-decoration: none;
   margin-left: 1rem;
   line-height: 2rem;
   color: black;
-}
-header .navbar .secondNav:hover .dropDown {
-  display: block;
 }

@@ -20,6 +20,9 @@ header{
             }
             .collapse{
                 .navbar-nav{
+                  .btn-danger{
+                    background-color: #d36420 !important;
+                  }
                     .dropCar {
                         position: relative;
                         .dropHover {
@@ -39,28 +42,49 @@ header{
         }
 
         .secondNav{
+          .secondnavWrapper{
             .btn-group{
-                position: relative;
-                }   
-                .dropDown{
-                    width: 25rem !important;
-                    display: none;
-                    position: absolute;
-                    
-                    #listing{
-                      text-decoration: none;
-                      margin-left: 1rem;
-                      line-height: 2rem;
-                      color: black;
-                    }
+              position: relative;
               }
-              &:hover {
-                .dropDown {
-                  display: block;
-                }
+              .jewel{
+                color: #d36420 !important;
+                text-decoration: none;
+                transition: 1s ease;
               }
-        }
-    }
+              // &:hover{
+              //   .jewel{
+              //     color: black!important;
+              //   }
+                // .jewel::after{
+                //   content: "";
+                //   width: 30%;
+                //   height: 2px;
+                //   background-color: black;
+                //   position: absolute; 
+                //   top: 2rem;
+                //   left: 20px;
+                // }
+              // }
+              .dropDown{
+                  width: 25rem;
+                  display: none;
+                  position: absolute;
+                  
+                  #listing{
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    line-height: 2rem;
+                    color: black;
+                  }
+            }
+            // &:hover {
+            //   .dropDown {
+            //     display: block;
+            //   }
+            // }
+      }
+  }
+          }
 }
 
   
