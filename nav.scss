@@ -51,10 +51,10 @@ header{
                 text-decoration: none;
                 transition: 1s ease;
               }
-              // &:hover{
-              //   .jewel{
-              //     color: black!important;
-              //   }
+              &:hover{
+                .jewel{
+                  color: black!important;
+                }
                 // .jewel::after{
                 //   content: "";
                 //   width: 30%;
@@ -64,7 +64,7 @@ header{
                 //   top: 2rem;
                 //   left: 20px;
                 // }
-              // }
+              }
               .dropDown{
                   width: 25rem;
                   display: none;

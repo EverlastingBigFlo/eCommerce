@@ -36,6 +36,9 @@ header .navbar .secondNav .secondnavWrapper .jewel {
   text-decoration: none;
   transition: 1s ease;
 }
+header .navbar .secondNav .secondnavWrapper:hover .jewel {
+  color: black !important;
+}
 header .navbar .secondNav .secondnavWrapper .dropDown {
   width: 25rem;
   display: none;
